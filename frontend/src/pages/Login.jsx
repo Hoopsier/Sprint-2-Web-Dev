@@ -9,9 +9,10 @@ import {
 } from "@heroicons/react/24/outline";
 
 const Login = () => {
-  const [formData, setFormData] = useState({email: "", password: "",});
+  const [formData, setFormData] = useState({ email: "", password: "" });
 
   const [showSignupMessage, setShowSignupMessage] = useState(false);
+
   const [showPassword, setShowPassword] = useState(false);
 
   const handleChange = (e) => {
@@ -80,10 +81,11 @@ const Login = () => {
             Login
             <span className="absolute bottom-0 left-0 w-full h-1 bg-red-600"></span>
           </button>
-          <button
-            className="flex-1 pb-4 font-semibold text-lg text-gray-500 hover:text-gray-700 transition-colors"
-          >
+          <button className="flex-1 pb-4 font-semibold text-lg text-gray-500 hover:text-gray-700 transition-colors">
             Sign Up
+          </button>
+          <button className="flex-1 pb-4 font-semibold text-lg text-gray-500 hover:text-gray-700 transition-colors">
+            List Your Restaurant
           </button>
         </div>
 
@@ -175,9 +177,7 @@ const Login = () => {
           </div>
         </div>
 
-        <button
-          className="w-full flex items-center justify-center gap-3 bg-white border-2 border-gray-300 hover:border-red-300 text-gray-700 font-medium py-3.5 rounded-lg shadow-sm hover:shadow transition-all duration-300 group"
-        >
+        <button className="w-full flex items-center justify-center gap-3 bg-white border-2 border-gray-300 hover:border-red-300 text-gray-700 font-medium py-3.5 rounded-lg shadow-sm hover:shadow transition-all duration-300 group">
           <span className="font-semibold">Login with Personal Gmail</span>
         </button>
 
