@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <Navbar/>
-     <Home/>
+     <Home className="font-poppins"/>
      <Footer/>
      <h1>This is for testing (SingUp)</h1>
      {/* <Login/> */}
