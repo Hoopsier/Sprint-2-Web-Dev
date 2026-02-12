@@ -26,3 +26,26 @@ exports.createFood = async (req, res) => {
         res.status(400).json({ message: err.message });
     }
 };
+
+exports.updateFood = async (req, res) => {
+    try {
+        const updatedFood = await Food.findByIdAndUpdate(
+            req.params.id, 
+            req.body, 
+            { new: true }
+        );
+        res.status(200).json(updatedFood);
+    } catch (err) {
+        res.status(400).json({ message: "Update failed: " + err.message });
+    }
+};
+
+
+exports.deleteFood = async (req, res) => {
+    try {
+        await Food.findByIdAndDelete(req.params.id);
+        res.status(200).send("Food item deleted successfully");
+    } catch (err) {
+        res.status(400).json({ message: "Delete failed: " + err.message });
+    }
+};
