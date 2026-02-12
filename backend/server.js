@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require("express");
 const connectDB = require("./config/db.js");
 const route = require('./routes/restaurantRouter.js');
-const foodRoutes = require('./routes/food');
+const foodRoutes = require('./routes/foodRouter.js');
 const app = express();
 connectDB();
 
