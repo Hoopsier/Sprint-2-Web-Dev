@@ -1,22 +1,28 @@
-let foodItems = [
-    { id: 1, name: "Sushi", price: 67.99},
-    { id: 2, name: "Pizza", price: 67.99,}
-];
+const Food = require('../models/Food');
 
-exports.getAllFoods = (req, res) => {
-    res.json(foodItems);
+exports.getAllFoods = async (req, res) => {
+    try {
+        const foods = await Food.find();
+        res.json(foods);
+    } catch (err) {
+        res.status(500).json({ message: err.message });
+    }
 };
 
+exports.createFood = async (req, res) => {
+    try {
+        const { name, price, category, description } = req.body;
+        
+        const newFood = new Food({
+            name,
+            price,
+            category,
+            description
+        });
 
-exports.createFood = (req, res) => {
-    const { name, price } = req.body;
-    
-    const newFood = {
-        id: foodItems.length + 1,
-        name: name || "Unknown Item",
-        price: price || 0,
-    };
-
-    foodItems.push(newFood);
-    res.send(`Food item '${name}' added successfully!`);
+        await newFood.save();
+        res.status(201).send(`Food item '${name}' saved to MongoDB!`);
+    } catch (err) {
+        res.status(400).json({ message: err.message });
+    }
 };
