@@ -3,11 +3,13 @@ const express = require("express");
 const connectDB = require("./config/db.js");
 const restaurantRoute = require('./routes/restaurantRouter.js');
 const AIRoute = require('./routes/aiRouter.js');
+const foodRoutes = require('./routes/foodRouter.js');
 const app = express();
 connectDB();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use('/foods', foodRoutes);
 
 app.get('/', (req, res) => {
   res.send('API is Running!');
