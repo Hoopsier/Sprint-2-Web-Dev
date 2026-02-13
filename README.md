@@ -3,7 +3,7 @@
 - Renan: Scrum Master
 - Delara: Developer
 - Noel: UI/UX
-- Dornaraj: Product Owner
+- Dornaraj: Product Owner (from now on)
 - Bob: Developer
 
 ## Deliverables
