@@ -53,9 +53,9 @@
     - Also bakcend
 - **Action Plan**  
   - Outline specific steps to address the areas for improvement.  
-        - Refactor repeated input fields into reusable components.
-        - Improve validation with more detailed error handling.
-        - Review accessibility standards and update form fields accordingly.
+  - Refactor repeated input fields into reusable components.
+  - Improve validation with more detailed error handling.
+  - Review accessibility standards and update form fields accordingly.
 ---
 
 ### 5. Additional Notes

@@ -7,3 +7,15 @@
 - Issue communication.
 ## Longed for:
 - Less work
+
+
+# 4L (Delara):
+## Liked
+- I enjoyed working on the coding tasks.
+## Learned
+- I improved my understanding of frontend component structure.
+- Structure components for future backend integration.
+## Lacked:
+ - Communication lacked
+## Longed for:
+- workload had been more balanced
