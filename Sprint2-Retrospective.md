@@ -20,6 +20,7 @@
 ## Longed for:
 - workload had been more balanced
 
+
 # 4L Dornaraj: 
 ## Liked: 
 teamwork and communication
@@ -28,5 +29,15 @@ programming and design with team members
 ## Lacked:
 nothing
 ## Longed for: 
+
+
+  # 4L Bob:
+## Liked:
+- Coding and learning
+## Learned:
+- Mongodb, databases and programming
+## Lacked:
+- Effort
+## Longed for:
 nothing
 
