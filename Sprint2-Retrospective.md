@@ -19,3 +19,14 @@
  - Communication lacked
 ## Longed for:
 - workload had been more balanced
+
+# 4L Dornaraj: 
+## Liked: 
+teamwork and communication
+## Learned:
+programming and design with team members
+## Lacked:
+nothing
+## Longed for: 
+nothing
+
