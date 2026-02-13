@@ -22,3 +22,10 @@ commits document everyone's participations and have been added to this repo.
 - I actively participated in group meetings
 - I rate myself (10/10) 
   
+### José (UI designer + Developer):
+- I focused mainly on frontend development, especially the restaurant list UI and overall page structure.
+- I helped translate parts of the Figma prototype into real React components and adjusted details that only appear once you start coding.
+- I worked on improving responsiveness and small UI consistency fixes (spacing, layout, and component alignment).
+- I contributed ideas about how the restaurant flow should work (registration logic, pricing, delivery distance), using platforms like Wolt/Uber Eats as references for reasoning.
+- I actively joined team discussions and tried to keep my tasks moving forward with regular commits.
+- Self Rating (9/10): I delivered my assigned frontend work and learned a lot, but I can improve by communicating earlier when I’m blocked and by planning my tasks more tightly to avoid last-minute polishing.
