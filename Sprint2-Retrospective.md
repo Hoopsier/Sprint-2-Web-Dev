@@ -41,3 +41,24 @@ nothing
 ## Longed for:
 nothing
 
+
+# 4L José:
+
+## Liked
+- Working on the frontend UI and turning the ideas into real components.
+- Building the restaurant list and improving the responsive layout.
+- Team collaboration when we reviewed screens and aligned the UI.
+
+## Learned
+- How to structure React components in a cleaner, reusable way.
+- How to think about the logic behind restaurant/user registration (prices, delivery distance, and how apps like Wolt/Uber Eats handle it).
+- That moving from Figma to code reveals real challenges, and it showed me why planning and details matter.
+
+## Lacked
+- More consistent communication and earlier updates when something changed.
+- Better time management to avoid rushing small details at the end.
+
+## Longed for
+- A more balanced workload across the team.
+- More time to polish UI details and prepare smoother integration for the backend.
+
